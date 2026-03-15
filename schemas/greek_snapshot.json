@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "GreekSnapshot",
+  "type": "object",
+  "properties": {
+    "symbol": { "type": "string" },
+    "delta": { "type": "number" },
+    "gamma": { "type": "number" },
+    "vega": { "type": "number" },
+    "theta": { "type": "number" },
+    "iv": { "type": "number" },
+    "ts_ns": { "type": "integer" }
+  },
+  "required": ["symbol","delta","gamma","vega","theta","iv","ts_ns"]
+}
