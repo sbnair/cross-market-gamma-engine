@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "BBO",
+  "type": "object",
+  "properties": {
+    "symbol": { "type": "string" },
+    "bid_px": { "type": "number" },
+    "bid_sz": { "type": "number" },
+    "ask_px": { "type": "number" },
+    "ask_sz": { "type": "number" },
+    "ts_ns": { "type": "integer" }
+  },
+  "required": ["symbol","bid_px","bid_sz","ask_px","ask_sz","ts_ns"]
+}
