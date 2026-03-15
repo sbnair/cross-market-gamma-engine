@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Instrument",
+  "type": "object",
+  "properties": {
+    "venue": { "type": "string" },
+    "asset_class": { "type": "string" },
+    "symbol": { "type": "string" },
+    "underlying": { "type": "string" },
+    "expiry_ts_ns": { "type": "integer" },
+    "strike": { "type": "number" },
+    "right": { "type": "string" },
+    "contract_multiplier": { "type": "number" }
+  },
+  "required": ["venue","asset_class","symbol","underlying","expiry_ts_ns","strike","right","contract_multiplier"]
+}
