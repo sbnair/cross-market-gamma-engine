@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SignalState",
+  "type": "object",
+  "properties": {
+    "underlying": { "type": "string" },
+    "ts_ns": { "type": "integer" },
+    "spot": { "type": "number" },
+    "local_gex": { "type": "number" },
+    "d_local_gex_dp": { "type": "number" },
+    "gamma_flip_level": { "type": "number" },
+    "iv_shock_z": { "type": "number" },
+    "book_imbalance": { "type": "number" },
+    "trade_aggr_imbalance": { "type": "number" },
+    "regime": { "type": "string" }
+  },
+  "required": ["underlying","ts_ns","spot","local_gex","d_local_gex_dp","iv_shock_z","book_imbalance","trade_aggr_imbalance","regime"]
+}
